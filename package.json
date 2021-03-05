@@ -1,0 +1,26 @@
+{
+  "name": "@ramouton/lambda-s3-proxy",
+  "description": "AWS Lambda Function Redirect to S3 content",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Raymond A. Mouton <raymond_mouton@icloud.com>",
+  "contributors": [
+    "Raymond A. Mouton <raymond_mouton@icloud.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramouton/lambda-s3-proxy.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ramouton/lambda-s3-proxy/issues"
+  },
+  "homepage": "https://github.com/ramouton/lambda-s3-proxy#readme",
+  "license": "NONE",
+  "keywords": [],
+  "dependencies": {
+    "aws-sdk": "^2.72.0"
+  }
+}
